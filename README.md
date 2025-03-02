@@ -1,6 +1,3 @@
-# Donor Family Contact Upsert
-
-This script handles the automatic creation and updating of contact records in HubSpot when surgery orders are created in Midwire Match. It's designed to work as part of a Zapier integration between Midwire Match and HubSpot CRM.
 
 ## Overview
 
@@ -18,5 +15,4 @@ The script processes donor family contact information from Midwire Match and ens
 - Node.js environment
 
 ## Environment Variables
-
-Create a `.env` file in your project root with:
+Configure the following environment variable in your Zapier account settings:
